@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>my-garden</title>
 </head>
 
@@ -16,32 +16,31 @@
     <main>
         <form>
             <fieldset>
-                  <label for="flower name">flower name</label>
-                    <input text='flower name'>
-                    
-                    </datalist><br>
+                <label for="flower name">flower name</label>
+                <input text='flower name'><br>
 
-                    <label for="flower image">flower image</label><br>
-                    <input type="list" id="image" required><br>
-                   
-                    <datalist id='flower name'>
-                        <option value="Alstroemerias">
-                        <option value="Gardenias">
-                        <option value="Orchids">
-                        <option value="Roses">
-                        <option value="Sunflowers">
-                        <option value="Tulips">
-                        <option value="Peonies">
-                        </option>
-                    </datalist><br>
+                <label for="flower image">flower image</label>
+                <input list="flowers" id="image"><br>
 
-                    <input type="text" id="flower season" required><br>
-                    <label for="flower season">flower season</label><br>
+                <datalist id='flower name'>
+                    <option value="Alstroemerias">
+                    <option value="Gardenias">
+                    <option value="Orchids">
+                    <option value="Roses">
+                    <option value="Sunflowers">
+                    <option value="Tulips">
+                    <option value="Peonies">
+                    </option><br>
 
-                    <input type="submit" value="Submit"><br>
+                </datalist><br>
+
+                <input type="text" id="flower season" required><br>
+                <label for="flower season">flower season</label><br>
+
+                <input type="submit" value="Submit"><br>
 
             </fieldset><br>
-           
+
 
 
         </form>
@@ -50,8 +49,8 @@
     </main>
 
     <script src="./apps.js">
-    <footer>
-        <p>All Rights Reserved 2021 &#169; ASAC </p>
+        <footer>
+            <p>All Rights Reserved 2021 &#169; ASAC </p>
         </footer>
 </body>
 
